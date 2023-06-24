@@ -40,7 +40,7 @@
               href="https://www.linkedin.com/in/antriksh-jain/"
               target="_blank"
             >
-              <div class="btn-pink" id="btn">Hire Me</div>
+              <div class="btn-pink" id="btn-top">Hire Me</div>
             </a>
           </div>
 
@@ -69,6 +69,7 @@
               />
             </div>
           </div>
+          <div class="btn-pink" id="btn-bottom">Hire Me</div>
         </div>
       </div>
 
@@ -444,11 +445,18 @@
                 <i class="fa-brands fa-github icon"></i>
               </a>
               <a
+                href="https://wa.me/8287979262/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-whatsapp icon"></i>
+              </a>
+              <a
                 href="https://www.instagram.com/antrikshjain_30/"
                 target="_blank"
               >
                 <i class="fa-brands fa-instagram icon"></i>
               </a>
+            
             </div>
           </div>
         </div>
@@ -484,7 +492,7 @@
             }
           }).then(response => {
             if (response.ok) {
-              status.innerHTML = "Message sent! Your words are soaring through cyberspace, bound for my inbox. Stay tuned for a response soon";
+              status.innerHTML = "Message sent! Stay tuned for a response soon";
               form.reset();
             } else {
               response.json().then(data => {

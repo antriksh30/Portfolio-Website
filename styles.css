@@ -568,7 +568,7 @@ a {
 }
 
 .skills-logo {
-  width: 70px;
+  height: 80px;
   transition: all 0.5s;
 }
 
@@ -617,7 +617,8 @@ a {
     width: 100%;
   }
   .skills-logo {
-    width: 50px;
+    width: 60px;
+    height: auto;
   }
   .skill-fade-text {
     display: none;

@@ -380,6 +380,7 @@ a {
 }
 
 .project-content {
+  width: 60%;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -418,7 +419,7 @@ a {
 
 .project-sub-heading {
   width: 70%;
-  font-size: 16px;
+  font-size: 17px;
   font-style: italic;
 }
 
@@ -457,6 +458,7 @@ a {
 }
 #project3 {
   background-image: url(./images/projects/Project3.png);
+  background-position: center;
 }
 #project4 {
   margin-left: 120px;
@@ -482,6 +484,7 @@ a {
   }
 
   .project-content {
+    width:100%;
     scale: 0.5;
     bottom: 0;
     left: 0;
